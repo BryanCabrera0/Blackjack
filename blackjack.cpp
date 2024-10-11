@@ -5,14 +5,17 @@ using namespace std;
 
 int main(){
 
+int deck[50];
+char move;
+
     string name;
     cout << "Welcome to Blackjack!\nPlease Enter Your Name: ";
     cin >> name;
     
     
-    char move;
-    cout << "Hello " << name <<"!\nPlease Enter 'H' or 'S' to Begin: ";
-    cin >> move;
+    char begin;
+    cout << "Hello " << name <<"!\nPlease Enter 'B' to Begin: ";
+    cin >> begin;
     
 
 
