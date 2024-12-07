@@ -15,7 +15,8 @@ int main() {
     string name;
 
     // Establish random seed for card drawing
-    srand(static_cast<unsigned>(time(0)));
+    unsigned seed = time(0);
+    srand(seed);
 
     // Main loop for entering or leaving the casino
     do {
